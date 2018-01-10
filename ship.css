@@ -1,0 +1,229 @@
+.row-centered {
+    text-align: center;
+    margin-top: 2em
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+.body_pad {
+    padding-left: 30em;
+    position: relative;
+    padding-right: 30em;
+}
+
+.menu_background {
+    background-color: #dc291e;
+    height: 74px;
+    padding-right: 1em;
+
+}
+
+.Godwin {
+    color: #fff;
+    height: 45px;
+    margin-left: 1em;
+    line-height: 5%;
+    margin-top: -1.5em
+}
+
+.menu {
+    list-style-type: none;
+    position: absolute;
+    top: 7.0em;
+    right: 33em;
+    border-radius: 1em;
+    margin-top: 11em
+}
+
+li a {
+    display: inline;
+    color: white;
+}
+
+.nav-pills>li:after cancel {
+    content: " | ";
+}
+.nav-pills>li>a{color:white;
+text-decoration: none;}
+
+a {
+    margin-top: 2.8em;
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav-pills>li.active>a{font-weight: 900;
+padding:0.5em 1em 1em 1em;
+border-radius:9px;
+text-decoration: overline;
+  background-color: transparent;
+}
+
+
+
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover,
+.nav-pills>li>a:hover{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border-radius: 9px;
+}
+
+.menu .first li a.active {
+    background-color: whit;
+    font-weight: 900;
+    padding: 0.5em 1em 1em 1em;
+    border-radius: 9px;
+    text-decoration: overline;
+}
+
+.greybox {
+    background-color: #f1eff0;
+    height: 16em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+p {
+    font-size: 80%;
+    line-height: 1.5%
+}
+
+.greybox p span {
+    color: #dc291e;
+    ;
+}
+
+.greybox p a {
+    text-decoration: none;
+}
+
+.slider{ position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;}
+
+.trackbox {height: 16em;
+    background-color: #dc291e;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #fff;
+
+}
+
+.reduce {
+    font-size: 70%;
+}
+
+.second_box_left {
+    float: left;
+    margin-right: -9em;
+    padding-right: 2em;
+}
+
+.written {
+    background-color: yello;
+    height: 20em;
+    width: 18em;
+    clear: both;
+    margin-right: 3em
+}
+
+.written-word {
+    font-weight: bold;
+    font-size: 80%;
+    line-height: 1.5%
+}
+
+.border-bottom {
+    border-bottom: 1px solid #CCC;
+    width: 86%;
+    margin-top: 1em;
+}
+
+.buzz {
+    margin-top: 2em;
+    font-size: 80%;
+    text-decoration: none;
+    width: 90%;
+    margin-left: -3em;
+}
+
+.schedule a {
+    color: #dc291e;
+    text-decoration: none;
+    margin-left: -0.1em;
+    font-weight: 200;
+    padding-right: 1em;
+}
+
+.schedul a {
+    color:black ;
+    text-decoration: none;
+    margin-left: -0.1em;
+    font-weight: 200;
+    padding-right: 1em;
+}
+
+.schedule a:hover {
+    color: red;
+    margin-top: 0.7em;
+    margin-left: -0.1em;
+    font-weight: 200;
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+.under_slider {
+    font-weight: bold;
+    font-size: 140%;
+    line-height: 1.6%;
+    padding-bottom: 0.7em
+}
+
+.schedule {
+    color: #706e6f;
+    text-decoration: none;
+
+    font-weight: 500;
+}
+
+.buz {
+    height: 6em;
+    background-color: re;
+    width: 20em;
+}
+
+
+
+.dot-border {
+    border-bottom: 1px dotted #CCC;
+    width: 100%;
+    margin-top: 1em;
+    clear: both;
+}
+
+.footer ul li {
+    color: black;
+   display: inline;
+}
+
+.rightFloat {
+    float: right
+}
